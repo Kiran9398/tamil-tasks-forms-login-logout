@@ -1,0 +1,60 @@
+.section-container {
+  display: grid;
+  grid: 100px / auto auto;
+  background-color: #1cc0c0;
+  height: 60vh;
+  width: 50vw;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 7px;
+  padding: 50px;
+}
+h1 {
+  text-align: center;
+}
+input {
+  width: 270px;
+  height: 33px;
+  margin: 10px;
+}
+p {
+  margin-left: 10px;
+  text-align: center;
+}
+button {
+  margin-left: 10px;
+  width: 280px;
+  height: 37px;
+  border-radius: 3px;
+  border: none;
+  background-color: #1cc0c0;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+a {
+  color: #1cc0c0;
+  text-decoration: none;
+}
+.forget-anchor {
+  color: #1cc0c0;
+  text-align: start;
+}
+.login-form {
+  background-color: white;
+  margin-top: 35px;
+  margin-left: 20px;
+  height: 48vh;
+  width: 300px;
+  border-radius: 5px;
+  /* margin-top: 60px; */
+}
+.signup-form {
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50vh;
+  width: 300px;
+  border-radius: 5px;
+}
